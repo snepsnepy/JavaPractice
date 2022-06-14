@@ -2,9 +2,15 @@ package com.example.helloworld.oop;
 
 public class Test {
     public static void main(String[] args) {
-        Car honda = new Car();
+        Car Dacia = new Car(0, "Yellow", "Dacia");
+        Car Honda = new Car(10, "Blue", "Honda");
 
-        System.out.println(honda.getSpeed());
-        //Dummy comment;
+//        honda.setColor("Blue");
+//        honda.setSpeed(0);
+//        System.out.println(honda.getColor());
+
+        System.out.println(Dacia.toString());
     }
+
+
 }
